@@ -1,6 +1,6 @@
 def solution(N):
     # Check if N is within the valid range
-    if not (1 <= N <= 26):
+    if not (1 <= N <= 20000):
         return "Invalid input"
 
     # Define the alphabet
@@ -23,4 +23,4 @@ def solution(N):
 
     return result
 
-print(solution(8))
+print(solution(4))
